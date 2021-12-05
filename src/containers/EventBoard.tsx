@@ -13,7 +13,7 @@ type Props = {
 
 const EventContainer: React.FC<Props> = ({ clients }) => {
   const [eventObjects, setEventObjects] = useState<EventObject[]>([]);
-  const [accessToken, setAccessToken] = useState<string>("Bearer 9g71ZSuiTykxW46IGPFYUnWiKB9CEodRn6zeuPfewK4");
+  const [accessToken, setAccessToken] = useState<string>("");
   const { ngoAuthClient, ngoAPIClient } = clients;
 
   const userId = "jinrz";
