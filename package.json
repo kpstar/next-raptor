@@ -1,0 +1,39 @@
+{
+  "name": "next-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.18.0-rc.2",
+    "grpc-web": "^1.2.1",
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-contextmenu": "^2.14.0",
+    "react-dom": "17.0.2",
+    "react-table": "^7.7.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.19",
+    "@types/react-table": "^7.7.8",
+    "@types/styled-components": "^5.1.16",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-plugin-react": "^7.25.1",
+    "typescript": "4.4.2"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
